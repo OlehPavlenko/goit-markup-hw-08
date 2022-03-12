@@ -38,7 +38,7 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -184,6 +184,7 @@ header {
 }
 
 .hero {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -204,12 +205,10 @@ header {
 }
 
 .hero__title {
-  width: 696px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 30px;
   font-weight: 900;
-  font-size: 44px;
   line-height: 1.3636363636;
   text-align: center;
   letter-spacing: 0.06em;
@@ -217,6 +216,18 @@ header {
   color: var(--hero-text-color);
 }
 
+@media screen and (min-width: 480px) {
+  .hero__title {
+    width: 360px;
+    height: 84px;
+    padding-top: 118px;
+    padding-bottom: 198px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 26px;
+    line-height: 1.6153846154;
+  }
+}
 .hero__btn {
   padding-top: 10px;
   padding-bottom: 10px;
