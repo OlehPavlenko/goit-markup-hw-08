@@ -1,5 +1,7 @@
 .list-footer {
   list-style: none;
+
+  margin-bottom: 60px;
 }
 .footer {
   padding-top: 60px;
@@ -59,10 +61,13 @@
   padding-bottom: 20px;
 }
 .footer-container {
-  display: flex;
+  text-align: center;
+  // display: flex;
 }
 .footer-join {
-  margin-left: 70px;
+  // margin-left: 70px;
+
+  margin-bottom: 60px;
 }
 .footer-social-media__item {
   display: inline-flex;
@@ -90,4 +95,15 @@
   .footer-social-media__item:hover & {
     fill: #ffffff;
   }
+}
+// .subscribe-btn {
+//   flex-wrap: wrap;
+// }
+.form-mail__block {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+}
+.form-mail__input {
+  max-width: 100%;
 }
