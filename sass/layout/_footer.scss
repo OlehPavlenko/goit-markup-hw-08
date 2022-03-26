@@ -117,13 +117,26 @@
 .footer-container {
   text-align: center;
   // display: flex;
+  @media screen and (min-width:767px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+.footer-block {
+  @media screen and (max-width:767px) {
+    // margin-left: 76px;
+  }
 }
 .footer-join {
   // margin-left: 70px;
 
   margin-bottom: 60px;
   @media screen and (min-width:768px) {
-    margin: 0;
+    margin-left: 169px;
+    
+    @media screen and (min-width:1200px){
+      margin-left: 70px;
+      }
 }
 }
 .footer-social-media__item {
@@ -174,12 +187,14 @@
   display: flex;
   justify-content: center;
   text-align: center;
+  margin-top: 20px;
   @media screen and (min-width:1200px){
     flex-direction: row;
     }
 }
 .form-mail__input {
   max-width: 450px;
+  width: 100%;
   height: 50px;
   margin-bottom: 30px;
   border: 1px solid rgba(255, 255, 255, 0.3);
