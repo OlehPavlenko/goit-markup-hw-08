@@ -509,7 +509,11 @@ body {
   }
 }
 
-.overlay {
+.hero__cont {
+  padding: 0;
+}
+
+.hero__overlane {
   max-width: 1600px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -525,6 +529,43 @@ body {
   background-position: center;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (max-width: 479px) {
+  .hero__overlane {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./img8/backgraund/Hero-mob1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./img8/backgraund/Hero-mob1x.jpg");
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__overlane {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./img8/backgraund/Hero-mob2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./img8/backgraund/Hero-mob2x.jpg");
+  }
+}
+@media screen and (min-width: 480px) {
+  .hero__overlane {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./img8/backgraund/Hero-tablet1x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./img8/backgraund/Hero-tablet1x.jpg");
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__overlane {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./img8/backgraund/Hero-tablet2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./img8/backgraund/Hero-tablet2x.jpg");
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero__overlane {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./img8/backgraund/ImgBg.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./img8/backgraund/ImgBg.jpg");
+  }
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero__overlane {
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url("./img8/backgraund/Hero-dextop2x.jpg");
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("./img8/backgraund/Hero-dextop2x.jpg");
+  }
 }
 
 .hero__btn {
