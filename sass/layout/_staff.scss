@@ -23,11 +23,12 @@
     margin: 15px;
     }
     
-    @media screen and (min-width:1200px){
+    @media screen and (min-width:1199px){
        width: calc((100% - 8 * 15px) / 4);
     }
     @media screen and (max-width:767px){
       .list-staff__img:not(:last-child){
+        
           margin-bottom: 30px;
       }
   }
@@ -50,13 +51,18 @@
 }
 }
 .staff {
-  // width: 100%;
+  width: 100%;
   background: #f5f4fa;
   padding-top: 60px;
   padding-bottom: 60px;
   @media screen and (min-width:1200px) {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+@media screen and (min-width:768px) {
+  width: 100%;
+  // padding-top: 94px;
+  // padding-bottom: 94px;
 }
 }
 .list-staff__content {
