@@ -10,12 +10,12 @@
   background: #f5f4fa;
   
   
-  // &__svg{
+  &__svg{
       
-  //         width: 70px;
-  //         height: 70px;
+          width: 70px;
+          height: 70px;
 }
-
+}
 .list-slogan {
   list-style: none;
   display: flex;
@@ -87,3 +87,7 @@
   padding-bottom: 94px;
   }
 }}
+.section {
+  padding-top: 60px;
+  padding-bottom: 0;
+}

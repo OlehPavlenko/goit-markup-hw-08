@@ -311,7 +311,7 @@ position: relative;
       
       @media screen and (max-width:767px){
           font-weight: 500;
-          font-size: 8vw;
+          font-size: 27px;
           line-height: 0.85;
           letter-spacing: 0.02em;
           color: #2196F3;
@@ -405,4 +405,8 @@ position: relative;
               @media screen and (min-width:1200px) {
                   margin-left:auto;
               }
+            }
+            .icon-cross{
+              width: 24px;
+              height: 16px;
             }

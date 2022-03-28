@@ -43,8 +43,9 @@
   border-radius: 4px;
   
   
-      @media screen and (max-width:767px){
-          width:96%;
+      @media screen and (max-width:468px){
+          width:94%;
+          height: 609px;
       }
       @media screen and (min-width:768px){
           width: 450px;
