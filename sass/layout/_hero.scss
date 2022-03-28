@@ -1,16 +1,23 @@
-.hero{
+// .hero{
     
-  padding: 118px 0;
+//   padding: 118px 0;
+//   background-color: $brand-fon;
+//   text-align: center;
+//   @media screen and (min-width:768px){
+//       padding: 118px 0;
+//   }
+//   @media screen and (min-width:1200px){
+//       padding: 200px 0;
+//   }
+// }
+.hero {
+    padding: 118px 0px;
+    text-align: center;
   background-color: $brand-fon;
-  text-align: center;
-  @media screen and (min-width:768px){
-      padding: 118px 0;
+    @media screen and(min-width: 1200px) {
+      padding: 200px 0px;
+    }
   }
-  @media screen and (min-width:1200px){
-      padding: 200px 0;
-  }
-}
-
 
 
 .hero__title {
